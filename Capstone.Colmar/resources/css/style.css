@@ -1,0 +1,353 @@
+html {
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+ /* Header Section */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 62px;
+  padding: 0 1.5em;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.iconlogo {
+  height: 2em;
+}
+
+.logo span {
+  font-weight: bold;
+  color: #313131;
+}
+
+.desktopnav {
+  display: flex;
+  flex-direction: row;
+  color: #7b7b7b;
+}
+
+.mobilenav {
+  display: flex;
+  flex-direction: row;
+  color: #7b7b7b;
+}
+
+.mobilenav img {
+  padding: 0 2em;
+}
+
+.desktopnav li {
+  padding: 0 1em;
+}
+
+header h2 {
+  color: #b1b1b1;
+}
+
+ /* Banner Section */
+
+#banner {
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+  background-color: #dedede;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 1em;
+  padding-bottom: 0.25em;
+  color: #3e3e3e;
+  line-height: 1.4;
+}
+
+#banner p {
+  padding-bottom: 2em;
+  line-height: 1.4;
+  color: #3e3e3e;
+}
+
+#banner img {
+  width: 60%;
+}
+
+#banner .bannerinfo {
+  padding: 0 2em;
+}
+
+#banner .button {
+  background-color: #545353;
+  color: white;
+  padding: 0.5em 6em;
+}
+
+ /* News Section */
+
+#News {
+  display: flex;
+}
+
+#information {
+  display: block;
+  width: 60%;
+}
+
+#information img {
+  margin-bottom: 2em;
+}
+
+.infoinshort {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.infoinshort img {
+  width: 35%;
+  margin-left: 2em;
+  margin-right: 1em;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+#News h3 {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #3e3e3e;
+  margin-bottom: 1em;
+}
+
+#information p {
+  font-size: 0.75em;
+  margin-bottom: 1em;
+  color:#7b7b7b;
+  line-height: 1.4;
+}
+
+#information span {
+  color:#3d3d3d;
+  font-size: 0.75em;
+}
+
+#News h4 {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #3e3e3e;
+  margin-bottom: 0.75em;
+}
+
+#News p {
+  font-size: 0.75em;
+  color:#7b7b7b;
+  margin-bottom: 0.75em;
+  line-height: 1.4;
+}
+
+#News .content span {
+  color: #36ace9;
+  font-size: 0.75em;
+}
+
+ /* Course Section */
+
+ .background {
+   background-color: #f3f3f3;
+ }
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 3.5em;
+}
+
+#learn {
+  text-align: center;
+}
+
+#coursesrow1 {
+  display: flex;
+}
+
+#coursesrow2 {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.course {
+  display: block;
+  margin: 1em;
+  padding-bottom: 1em;
+  background-color: white;
+}
+
+.course img {
+  width: 15.7em;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.background h4 {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #3e3e3e;
+  margin-bottom: 0.75em;
+  padding: 0 0.5em;
+}
+
+.background p {
+  font-size: 0.75em;
+  color:#7b7b7b;
+  margin-bottom: 0.75em;
+  line-height: 1.6;
+  padding: 0 1em;
+}
+
+/* Exhibit Section */
+
+.flexcontainer {
+  display: flex;
+  padding-bottom: 3em;
+}
+
+#videothesis {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.videoinfo {
+  margin-top: 1.5em;
+}
+
+.exhibit {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 1em;
+}
+
+.thesis {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.thesis img {
+  width: 25%;
+  margin: 1em;
+}
+
+#thesisline {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#videothesis h4 {
+  font-size: 1.25em;
+  color: #3e3e3e;
+  margin-bottom: 0.75em;
+}
+
+#videothesis p {
+  font-size: 0.85em;
+  color:#7b7b7b;
+  margin-bottom: 0.75em;
+  line-height: 1.6;
+}
+
+.exhibit h4 {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #3e3e3e;
+  line-height: 1.2;
+}
+
+.exhibit p {
+  font-size: 0.85em;
+  color:#7b7b7b;
+  line-height: 1.2;
+}
+
+.background2 {
+  background-color:#dedede;
+}
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  background-color: #f6f6f6;
+  font-size: 0.75em;
+  color:#7b7b7b;
+}
+.copyright {
+  display: block;
+}
+#terms {
+  display: block;
+  text-align: right;
+}
+
+/* Responsive Design */
+
+@media only screen and (min-width: 1024px) {
+  .mobilenav {display:none;}
+  .mobilesmall {display:none;}
+}
+
+@media only screen and (max-width: 470px) {
+  .desktopnav {display:none;}
+  nav h2 {display:none;}
+  #banner {flex-direction: column; padding-bottom:4em;}
+  #banner img {width:100%}
+  #banner .button {padding: 1em 6em; font-size:1.4em;}
+  #banner .bannerinfo {padding: 0 1em;}
+  #banner p {font-size:1.4em;}
+  #banner h1 {font-size: 2.5em;}
+  #information {display:none;}
+  #News .info {flex-direction:column; width:100%; align-items: left;}
+  #News .infoinshort {width:100%;}
+  #News img {width: 92%; margin: 0em 1em;}
+  #News h4 {font-size: 1.4em; margin-top: 1em; padding-left:1em;}
+  #News p {font-size: 1.2em; padding-left:1.2em;}
+  #News .info span {font-size: 1.2em; padding-left: 1.2em;}
+  .small {display: none;}
+  html {overflow:scroll;}
+  .background img {display: none;}
+  .background p {display: none;}
+  .background h4 {padding-top:1em; color: #484848; font-weight: normal;}
+  .course {padding-bottom: 0em; margin-bottom: 0em; background-color: #c9caca; width:92%;}
+  .courses {margin: 0em;}
+  .background {padding-bottom: 1em;}
+  #coursesrow1 {flex-direction: column;}
+  #coursesrow2 {flex-direction: column;}
+  #videothesis .videoinfo {display: none;}
+  .exhibit {display: none;}
+  #thesisline {margin-bottom: 0em;}
+  video {width: 22.5em; padding: 1.2em;}
+  #terms {display: none;}
+}
